@@ -54,6 +54,7 @@
         <!-- Submit Button -->
         <button class="mybutton" v-on:click="submit" type="button">Submit</button>
         <button type="button" class="btn btn-primary">Primary Button</button>
+        <button type="button" class=" btn btan-warning"> reset</button>
 
         <ul style="list-style: none;">
             <li v-for=" item in error" :key="item" style="color: red;">
